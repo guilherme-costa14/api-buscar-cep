@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar CEP</title>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow-sm p-4">
+                    <h2 class="card-title text-center mb-4">Buscar CEP</h2>
+
+                    <form id="cep-form">
+                        <div class="mb-3">
+                            <label for="input-cep" class="form-label">CEP:</label>
+                            <input type="text" class="form-control" id="input-cep" placeholder="Digite o CEP">
+                        </div>
+
+                        <button type="button" id="botao-buscar-cep" class="btn btn-primary w-100">Buscar</button>
+
+                        <hr>
+
+                        <div class="mb-3">
+                            <label for="rua" class="form-label">Rua:</label>
+                            <input type="text" class="form-control" id="rua" disabled>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="bairro" class="form-label">Bairro:</label>
+                            <input type="text" class="form-control" id="bairro" disabled>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="cidade" class="form-label">Cidade:</label>
+                            <input type="text" class="form-control" id="cidade" disabled>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="estado" class="form-label">Estado:</label>
+                            <input type="text" class="form-control" id="estado" disabled>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

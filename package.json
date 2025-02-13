@@ -1,0 +1,16 @@
+{
+  "name": "api-buscar-cep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Guilherme S M Costa",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "jest": "^29.7.0"
+  }
+}
